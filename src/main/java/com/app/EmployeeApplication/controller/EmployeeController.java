@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
     @GetMapping
     public ResponseEntity<String> employeeApp(){
+        System.out.println("Welcome to the Git Bash");
         return  new ResponseEntity<>("EmployeeApplication", HttpStatus.OK);
     }
 
